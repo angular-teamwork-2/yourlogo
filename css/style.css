@@ -1,0 +1,41 @@
+/* ---------------------------general-------------------- */
+button{
+    box-shadow:  none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------section our portfolio------------------- */
+
+.our-portfolio{
+    background-color: #2d3e4e;
+}
+.our-portfolio .top h4{
+    color: #f58560;
+} 
+.our-portfolio .down h6{
+    color: #f58560;
+    padding: 10px 0;
+    margin: 0 !important;
+}
+.our-portfolio .down p{
+    color: #eee;
+    font-size: 14px;
+}
