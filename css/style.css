@@ -1,41 +1,129 @@
-/* ---------------------------general-------------------- */
-button{
-    box-shadow:  none !important;
+*{
+    margin: 0;
+    padding: 0;
+}
+.height-nav{
+   height: 73px;
+}
+/* style left navbar */
+.square{
+    width: 15px;
+    height: 15px;
+    background-color: #17a3d8;
+    margin-right: 7px;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    background-color: #ff0000;
+    
+
+}
+/*style middle navbar */
+.blog{
+    background-color: #ff0000 ;
+    background-size: contain !important;
+    
+}
+.home{
+    background-color: #17a3d8;
+    position: relative;
+
+}
+.under-home
+{
+    
+    height: 18px;
+    background-color: #1580b6;
+}
+.circle-in-home{
+    background-color: #1580b6;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 20px;
+    
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---------------section our portfolio------------------- */
-
-.our-portfolio{
-    background-color: #2d3e4e;
+.search-cycle{
+    background-color: #ff0000;
+    width: 40px;
+    height: 40px;
 }
-.our-portfolio .top h4{
-    color: #f58560;
-} 
-.our-portfolio .down h6{
-    color: #f58560;
-    padding: 10px 0;
-    margin: 0 !important;
+.fa-search {
+    
+    position: relative;
+    top:25%;
+    
+    
 }
-.our-portfolio .down p{
-    color: #eee;
-    font-size: 14px;
+::placeholder{
+    color: black !important;
+}
+input[type=search]:focus {
+    
+    width: 250px !important;
+    position: relative;
+    
+
+}
+/* style background & slider */
+.background{
+    border: 1px solid red !important;
+    height: 200px !important;
+}
+.carousel-item
+{
+    height: 500px;
+    
+    
+}
+.overlay-slider{
+    
+    background-color:rgba(0, 0, 0, 0.747) !important;
+   width: 100%;
+   height: 100%;
+    
+    
+ 
+}
+
+.slider1,.slider2,.slider3,.slider4{
+    background: url(../images/m5.jpg) no-repeat 100% ;
+    background-size: 100% 100%;
+    
+}
+.slider2{
+    background-image: url(../images/m2.jpg)  ;
+
+}
+
+.slider3{
+    background-image: url(../images/img3.jpg)  ;
+
+}
+.slider4{
+    background-image: url(../images/img4.jpg)  ;
+
+}
+.button-slide{
+    height: 12px !important;
+    width: 12px !important;
+    background-color:#17a3d8 !important; 
+    border: 2px solid #ff0000 !important;
+}
+.p1{
+  position: relative;
+}
+.p2{
+    position: absolute;
+    bottom:220px;
+    left: 25%;
+  
+}
+.more{
+    background-color: #ff0000 !important;
+    
+    
 }
